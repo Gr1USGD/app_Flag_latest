@@ -1,12 +1,15 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const home = () => {
+const Home = () => {
   return (
     <View>
-      <Text>home</Text>
+      <View style={styles.buttonContent}>
+              <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/128/300/300221.png' }} style={styles.img} />
+              <Text>Login with google</Text>
+            </View>
     </View>
   )
 }
 
-export default home
+export default Home
